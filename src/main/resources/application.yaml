@@ -1,0 +1,8 @@
+security:
+  oauth2:
+    client:
+      client-id: 5b12316f-4e51-43b3-b689-e7085912a7bc # client-id、client-secret没有配置会在启动时自动生成
+      client-secret: a3e6b8ce-a44a-438a-89fe-0c3c2b8bab5c
+      registered-redirect-uri: http://yarda.top # 没有配置时，授权会报 invalid request
+
+
